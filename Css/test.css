@@ -1,0 +1,110 @@
+body{
+    width: 1000px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+/* Header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+
+}
+header img{
+    width: 40px;
+}
+.navigators{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.navigators a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Hero Section*/
+
+.hero{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    background: url(https://wallpaperboat.com/wp-content/uploads/2019/10/programming-10-920x518.jpg);
+    background-size: cover;
+    justify-content: center;
+}
+.heroText{
+    font-size: 50px;
+}
+
+
+/* Articles*/
+
+.articles{
+    display: flex;
+    gap: 20px;
+}
+.eachA{
+    border-style: solid;
+    border: 1px;
+    box-shadow: 10px 5px 5px black;
+}
+
+/* About me*/
+
+.aboutMe{
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
+.aboutMe img{
+    width: 150px;
+    border-radius: 20px;
+}
+
+/* Contact*/
+
+.contact{
+    display: flex;
+    gap: 40px;
+}
+
+.contact img{
+    width: 150px;
+    height: 150px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* button*/
+
+.buttons{
+    display: flex;
+    align-items: end;
+}
+
+/* Footer*/
+
+.footer1{
+    background-color: aqua;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
